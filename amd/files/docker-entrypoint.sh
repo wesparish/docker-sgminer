@@ -11,7 +11,7 @@ cat > /opt/pool.cfg <<-EOH
       "nfactor": "10",
       "algorithm": "cryptonight",
       "url": "$URL",
-      "user": "$USER.0.$docker_host",
+      "user": "$USER.$docker_host",
       "pass": "$PASS",
       "priority": "0",
       "profile": "xmr"
